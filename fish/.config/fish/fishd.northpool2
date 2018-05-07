@@ -2,6 +2,7 @@
 # Do NOT edit it directly, your changes will be overwritten.
 SET __fish_init_2_39_8:\x1d
 SET __fish_init_2_3_0:\x1d
+SET chain_links:chain\x2elinks\x2eroot\x1echain\x2elinks\x2ejobs\x1echain\x2elinks\x2epwd\x1echain\x2elinks\x2evcs_branch\x1echain\x2elinks\x2evcs_dirty\x1echain\x2elinks\x2evcs_stashed\x1ebtc_link
 SET fish_color_autosuggestion:555\x1ebrblack
 SET fish_color_command:\x2d\x2dbold
 SET fish_color_comment:red

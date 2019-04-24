@@ -1,0 +1,12 @@
+set -gx PATH ~/bin $PATH
+set -gx GOPATH /opt/go
+set -gx PATH /opt/go/bin $PATH
+set -gx default_user floris
+
+# Load fishmarks (http://github.com/techwizrd/fishmarks)
+. $HOME/.fishmarks/marks.fish
+
+set -x MSSQL_CLI_TELEMETRY_OPTOUT 1
+
+# Set capslock as ctrl
+xmodmap /home/floris/.xmodmap

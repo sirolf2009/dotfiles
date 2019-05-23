@@ -10,6 +10,8 @@ set -gx TTC_REPOS /home/floris/git
 set -gx TTC_WEATHER Rotterdam
 set -gx TTC_APIKEYS false
 
+alias jfu 'journalctl -n 1000 -f -u'
+
 alias mci 'mvn clean install'
 alias mcia 'mvn clean install appassembler:assemble'
 

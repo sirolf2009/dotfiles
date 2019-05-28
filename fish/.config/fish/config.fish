@@ -10,6 +10,19 @@ set -gx TTC_REPOS /home/floris/git
 set -gx TTC_WEATHER Rotterdam
 set -gx TTC_APIKEYS false
 
+alias cassandratest1 'ssh cassandratest1'
+alias cassandratest2 'ssh cassandratest2'
+alias cassandra-serv1 'ssh cassandra-serv1'
+alias cassandra-serv2 'ssh cassandra-serv2'
+alias cassandra-serv3 'ssh cassandra-serv3'
+alias cassandra-serv4 'ssh cassandra-serv4'
+alias cassandra-serv5 'ssh cassandra-serv5'
+alias cassandra-serv6 'ssh cassandra-serv6'
+
+alias kibi 'ssh kibi'
+alias henry 'ssh henry'
+alias pascal 'ssh pascal'
+
 alias jfu 'journalctl -n 1000 -f -u'
 
 alias mci 'mvn clean install'

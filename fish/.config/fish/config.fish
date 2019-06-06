@@ -22,6 +22,8 @@ alias cassandra-serv6 'ssh cassandra-serv6'
 alias kibi 'ssh kibi'
 alias henry 'ssh henry'
 alias pascal 'ssh pascal'
+alias pebi 'ssh pebi'
+alias npcloudtest 'ssh npcloudtest'
 
 alias jfu 'journalctl -n 1000 -f -u'
 

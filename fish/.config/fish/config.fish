@@ -10,8 +10,8 @@ set -gx TTC_REPOS /home/floris/git
 set -gx TTC_WEATHER Rotterdam
 set -gx TTC_APIKEYS false
 
-alias cassandratest1 'ssh cassandratest1'
-alias cassandratest2 'ssh cassandratest2'
+alias cassandratest1 'tsh cassandratest1 floris'
+alias cassandratest2 'tsh cassandratest2 floris'
 alias cassandra-serv1 'ssh cassandra-serv1'
 alias cassandra-serv2 'ssh cassandra-serv2'
 alias cassandra-serv3 'ssh cassandra-serv3'
@@ -20,10 +20,15 @@ alias cassandra-serv5 'ssh cassandra-serv5'
 alias cassandra-serv6 'ssh cassandra-serv6'
 
 alias kibi 'ssh kibi'
-alias henry 'ssh henry'
-alias pascal 'ssh pascal'
+alias henry 'tsh henry floris'
+alias pascal 'tsh pascal floris'
 alias pebi 'ssh pebi'
 alias npcloudtest 'ssh npcloudtest'
+alias nptest 'ssh nptest'
+alias npotc 'ssh npotc'
+alias npintraday 'ssh npintraday'
+alias yobi 'ssh yobi'
+alias zebi 'ssh zebi'
 
 alias jfu 'journalctl -n 1000 -f -u'
 
@@ -31,6 +36,7 @@ alias mci 'mvn clean install'
 alias mcia 'mvn clean install appassembler:assemble'
 
 if [ (hostname) = "northpool2" ]
+  set -gx JAVA_HOME "/usr/lib/jvm/java-8-oracle/"
   set -gx PATH ~/bin $PATH
   set -gx PATH /opt/prtg/bin $PATH
   set -gx PATH /opt/go/bin $PATH

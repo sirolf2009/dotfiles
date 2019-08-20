@@ -12,7 +12,7 @@ set -gx TTC_APIKEYS false
 
 alias cassandratest1 'tsh cassandratest1 floris'
 alias cassandratest2 'tsh cassandratest2 floris'
-alias cassandra-serv1 'ssh cassandra-serv1'
+alias cassandra-serv1 'tsh cassandra-serv1 floris'
 alias cassandra-serv2 'ssh cassandra-serv2'
 alias cassandra-serv3 'ssh cassandra-serv3'
 alias cassandra-serv4 'ssh cassandra-serv4'
@@ -22,13 +22,17 @@ alias cassandra-serv6 'ssh cassandra-serv6'
 alias kibi 'ssh kibi'
 alias henry 'tsh henry floris'
 alias pascal 'tsh pascal floris'
-alias pebi 'ssh pebi'
+alias pebi 'tsh pebi floris'
 alias npcloudtest 'ssh npcloudtest'
 alias nptest 'ssh nptest'
 alias npotc 'ssh npotc'
 alias npintraday 'ssh npintraday'
-alias yobi 'ssh yobi'
-alias zebi 'ssh zebi'
+alias fractal 'ssh fractal'
+alias yobi 'tsh yobi floris'
+alias zebi 'tsh zebi floris'
+alias traan 'tsh traan.northpool.pvt floris'
+
+alias gladiator 'tsh root@gladiatorcapital.io floris'
 
 alias jfu 'journalctl -n 1000 -f -u'
 
@@ -95,4 +99,7 @@ if [ (hostname) = "northpool2" ]
   alias weeronline 'cd ~/git/weeronline-scraper'
   alias windstats 'cd ~/git/windstats-scraper'
   alias xrate 'cd ~/git/xrate-scraper'
+  alias traan-api 'cd ~/git/traan-api'
+
+  alias mbti 'cd ~/git/mbti'
 end

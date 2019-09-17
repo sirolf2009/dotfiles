@@ -46,7 +46,9 @@ if [ (hostname) = "northpool2" ]
   set -gx PATH /opt/prtg/bin $PATH
   set -gx PATH /opt/go/bin $PATH
   set -gx PATH /opt/rhyme $PATH
+end
 
+if [ (hostname) = "northpool2" ]; or [ (hostname) = "workstation" ]  
   alias cassandra-common 'cd ~/git/cassandra-common'
   alias common 'cd ~/git/cassandra-common'
   alias cassandra-service 'cd ~/git/cassandra-service'

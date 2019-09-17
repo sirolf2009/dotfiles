@@ -31,6 +31,7 @@ alias fractal 'ssh fractal'
 alias yobi 'tsh yobi floris'
 alias zebi 'tsh zebi floris'
 alias traan 'tsh traan.northpool.pvt floris'
+alias why 'tsh why.northpool.pvt floris'
 
 alias gladiator 'tsh root@gladiatorcapital.io floris'
 

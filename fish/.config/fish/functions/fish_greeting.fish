@@ -1,3 +1,3 @@
 function fish_greeting
-	fortune -a | cowsay
+	paste (fortune -a | cowsay | psub) (cat /etc/*release | grep "^NAME=" | cut -d \" -f2 | psub)
 end

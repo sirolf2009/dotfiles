@@ -10,6 +10,15 @@ set -gx TTC_REPOS /home/floris/git
 set -gx TTC_WEATHER Rotterdam
 set -gx TTC_APIKEYS false
 
+alias sc 'systemctl'
+alias scst 'sudo systemctl start'
+alias scsp 'sudo systemctl stop'
+alias scrl 'sudo systemctl reload'
+alias scrt 'sudo systemctl restart'
+alias sce 'sudo systemctl enable'
+alias scd 'sudo systemctl disable'
+alias scs 'systemctl status'
+
 alias cassandratest1 'tsh cassandratest1 floris'
 alias cassandratest2 'tsh cassandratest2 floris'
 alias cassandra-serv1 'tsh cassandra-serv1 floris'
